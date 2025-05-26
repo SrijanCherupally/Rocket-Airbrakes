@@ -48,5 +48,28 @@ What I am deciding on for now:
 I'll CAD out the slider mechanism since its easy to design, and see how much it costs, how much surface area it has, and how weak it is. If its too expensive, too expensive, or too small, Ill switch to Umbrella Design
 
 Time Spent: 3 hours
+Date: 5/20/2025
+
+# Day 2
+
+Today, I decided to work on CADding the Slider Mechanism. 
+To do this, I decided on using Onshape, and later shift it to Fusion to run some CFD Tests. 
+I wanted my Airbrakes to fit in a BT 80 tube, so I cadded a 65 mm diameter circle first, and then added my airbrakes
+
+![image](https://github.com/user-attachments/assets/79fefaa9-bf95-46bb-ba74-cae272058e6e)
+
+To make sure the Airbrakes could slide, I added these rail guides to allow the Airbrakes to fit in, and slide smoothly
+
+![image](https://github.com/user-attachments/assets/bbca8fa9-8217-4e21-8325-acb3a9810a4c)
+
+This was the full Airbrake Base, with rail guides for 3 Airbrakes Fins
+
+![image](https://github.com/user-attachments/assets/42ef57d8-2f3c-41c8-baf7-cfa88366afa3)
+
+Work done today - Cadded Slider Mech Airbrake Base
+
+Time Spent: 3 hours
+Date: 5/21/2025
+
 
 
