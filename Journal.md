@@ -71,5 +71,36 @@ Work done today - Cadded Slider Mech Airbrake Base
 Time Spent: 3 hours
 Date: 5/21/2025
 
+# Day 3
 
+Today I was wondering about calculating the force exerted on the Airbrakes. To do this, I simulated the airbrakes I designed earlier, by exporting it and importing it into Onshape. From here, I was able to find out that a total of around 6 newtons would be exerted on the Airbrakes. If these Slider Airbrakes werent CNC'd they wouldnt be strong enough to withstand the force, and break. 
+
+I went to JLC PCB and tried to quote the airbrakes I designed. Even without the motor mechanisms and mounts, the cost was 80 dollars + tax + shipping, which is going to be around 110 dollars, way above my budget. 
+
+So I decided that I had to design the Airbrakes using the Umbrella Method, that would be much stronger, and could be made from my 3d printer
+
+Time Spent: 2 hours
+
+# Day 4
+
+Today, I hopped on Onshape and started designing the Umbrella Airbrake. To start, I first designed the transition bay, in which the Airbrakes would be mounted to. This transition bay would be held inside the rocket, and would hose the airbrakes, and the electronics. 
+
+This is the Transition/Coupler I designed: 
+
+![image](https://github.com/user-attachments/assets/68b9ec6f-3e6d-4782-9e6c-3a4d2c1192e2)
+
+The mounts popping out of the Transition bay, are there to mount the Airbrakes which the Airbrakes can actuate freely.
+
+Next, I designed the Airbrake Fins, which were designed to have as much surface area as possible to maximize control authority.
+
+This is the Airbrake I designed: ![image](https://github.com/user-attachments/assets/be1b9bbc-7bda-4d58-af71-237abf3ad8da)
+
+The top mount popping out of the Airbrake, are supposed to screw onto the mounts on the Transition bay to actuate the Airbrake. 
+The mount on the bottom is there so I can connect a hinge to it, so I can actuate it. I will explain the mechanism in a bit.
+
+This is the Airbrake Fins attached to the Transition Bay. 
+
+https://github.com/user-attachments/assets/e155a5e2-65f9-4150-ba08-11984518a05b
+
+Time Spent: 3 hours
 
