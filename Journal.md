@@ -104,3 +104,46 @@ https://github.com/user-attachments/assets/e155a5e2-65f9-4150-ba08-11984518a05b
 
 Time Spent: 3 hours
 
+# Day 5
+
+Today, I focused on designing the other mechanisms to help the Airbrakes Actuate. I made these links here:
+![image](https://github.com/user-attachments/assets/eec14abd-7f1d-4682-8fb6-a28223cbc820)
+And this is the link holder I designed: ![image](https://github.com/user-attachments/assets/bee97b8c-5376-462f-aff7-c6a59f2cade1)
+
+This is how the system works. When the bottom link holder moves up and down, the link also moves, which then rotates the airbrakes. This provides a very strong actuating mechanism, that can withstand a lot of G's
+
+Here is a video showing how the Airbrakes Actuate: 
+
+
+https://github.com/user-attachments/assets/33ceb665-7843-46b2-b39d-c41374ad93c8
+
+Time Spent: 5 hours
+
+# Day 6
+
+Today I worked on figuring out a motor to use. I also wanted this to be actuated with a Lead Screw. 
+After some reasearch I decided on this motor: 
+![image](https://github.com/user-attachments/assets/399e683b-cef4-4ecd-bb38-2c01605c6e67)
+
+The reason I chose this motor, was because it had a high rpm, 10k rpm, twice as much torque as I needed, as calculated, and had an encoder, which would be helpful for the PID Control
+
+In order to actuate the Airbrakes, I chose a T4 Lead Screw. The reason for this was because it could withstand high loads, had a 1 mm pitch, for fast actuation, and lots of torque to work with. This meant it would be perfectly compatible with the motor. 
+
+However, the motor has an output shaft of a gear, and I had no way to connect that to the leadscrew, without some cad work.
+I hopped onto Onshape, and quickly designed this ![image](https://github.com/user-attachments/assets/9a257c3d-5ca5-44b2-910d-36e7574811a5)
+
+With this, I could clamp a threaded T4 Leadscrew, and clamp the motor gear to coupler. This way I could easily transfer the motion of the shafts. 
+
+This is the fully assembled Motor Leadscrew Configureation:   ![image](https://github.com/user-attachments/assets/dd486b7a-cdd2-488e-b5ed-2ae1fbf87201)
+
+Adding this motor, also meant I had to CAD a motor mount in the transition bay of the electronics to get the motor screwed and fixed on, to move the airbrakes. 
+To do this, I added this circular mount here, intended to hold the motor in place, and 2 screw holes to screw into the motor and fasten it. The other mount, forward of the Motor mount, is the battery mount, to power the PCB and the Motor.
+
+Here is the full assembly - ![image](https://github.com/user-attachments/assets/f1127872-4086-4637-914f-75140e01e7a4)
+
+Time Spent: 6 hours
+
+# Day 7
+
+Today I worked on the PCB of the Motor. 
+
