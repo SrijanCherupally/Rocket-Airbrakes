@@ -14,6 +14,17 @@ PCB 3d Image: ![image](https://github.com/user-attachments/assets/672eac3e-356c-
 
 PCB Image: ![image](https://github.com/user-attachments/assets/22efb334-d5de-45bb-a409-8770c8de8b84)
 
-BOM: 
+## Bill of Materials
 
-![image](https://github.com/user-attachments/assets/f08e3afe-e884-4479-871f-b85c59e0614c)
+| **Item Name**             | **Purpose**                                           | **Link**                                                                                                                                                    | **Cost (USD)** | **Note**                                     | **Quantity** |
+|--------------------------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|----------------------------------------------|--------------|
+| Flight Computer PCB      | To control the motor, and get to right altitude       | Online Quotation *(Can't share)*                                                                                                                            | 102.66         | 2 qty's inside the order because minimum order | 1            |
+| Polulu DC Motor          | To actuate the Airbrakes using lead screw            | [Pololu DC Motor](https://www.pololu.com/product/4800)                                                                                                      | 56.14          |                                              | 1            |
+| 3D Printer Filament      | To 3D print the Airbrakes                             | [Fiberon™ PA6-CF20 (Formerly PolyMide™ PA6-CF)](https://us.polymaker.com/products/polymide-pa6-cf)                                                          | 40             |                                              | 1            |
+| M2,3 Metric Screws       | To screw and joint the Airbrakes together             | [Amazon - 1080pcs Assortment Kit](https://www.amazon.com/dp/B08N4J7NV1)                                                                                    | 15             |                                              | 1            |
+| JLC CNC Shaft Adapter    | Shaft adapter between Motor Shaft and Lead Screw     | Online Quotation *(Can't share)*                                                                                                                            | 57             |                                              | 1            |
+| T4 Lead Screw            | To convert motor rotation to linear movement         | [AliExpress - T4 Lead Screw](https://www.aliexpress.us/item/3256804956186452.html)                                                                         | 15             |                                              | 1            |
+| 6, 3, 2, 8 pin Headers   | To solder onto the PCB for less money charged        | Online Quotation *(Can't share)*                                                                                                                            | 8.43           |                                              | 1            |
+
+**Total Cost:** **$294.23**
+
