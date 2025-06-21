@@ -9,7 +9,7 @@ To solve this problem, I will need to do the following things in order:
 - Use KiCad or EasyEda PRO to design a PCB to control the angle of the Airbrakes
 - Use ArduinoIDE to code the PCB how to control the angle of the Airbrakes
 
-# Day 1
+# Day 1 - 6/5/2025
 
 I was researching on possible Airbrake Mechanisms. There are a couple mechanisms:
 - Slider mechanism which uses rails to move the Brake inside and outside the rocket to go to specific altitude.
@@ -50,7 +50,7 @@ I'll CAD out the slider mechanism since its easy to design, and see how much it 
 Time Spent: 3 hours
 Date: 5/20/2025
 
-# Day 2
+# Day 2 - 6/8/2025
 
 Today, I decided to work on CADding the Slider Mechanism. 
 To do this, I decided on using Onshape, and later shift it to Fusion to run some CFD Tests. 
@@ -71,7 +71,7 @@ Work done today - Cadded Slider Mech Airbrake Base
 Time Spent: 3 hours
 Date: 5/21/2025
 
-# Day 3
+# Day 3 - 6/9/2025
 
 Today I was wondering about calculating the force exerted on the Airbrakes. To do this, I simulated the airbrakes I designed earlier, by exporting it and importing it into Onshape. From here, I was able to find out that a total of around 6 newtons would be exerted on the Airbrakes. If these Slider Airbrakes werent CNC'd they wouldnt be strong enough to withstand the force, and break. 
 
@@ -81,7 +81,7 @@ So I decided that I had to design the Airbrakes using the Umbrella Method, that 
 
 Time Spent: 2 hours
 
-# Day 4
+# Day 4 - 6/11/2025
 
 Today, I hopped on Onshape and started designing the Umbrella Airbrake. To start, I first designed the transition bay, in which the Airbrakes would be mounted to. This transition bay would be held inside the rocket, and would hose the airbrakes, and the electronics. 
 
@@ -104,7 +104,7 @@ https://github.com/user-attachments/assets/e155a5e2-65f9-4150-ba08-11984518a05b
 
 Time Spent: 3 hours
 
-# Day 5
+# Day 5 - 6/13/2025
 
 Today, I focused on designing the other mechanisms to help the Airbrakes Actuate. I made these links here:
 ![image](https://github.com/user-attachments/assets/eec14abd-7f1d-4682-8fb6-a28223cbc820)
@@ -119,7 +119,7 @@ https://github.com/user-attachments/assets/33ceb665-7843-46b2-b39d-c41374ad93c8
 
 Time Spent: 5 hours
 
-# Day 6
+# Day 6 - 6/17/2025
 
 Today I worked on figuring out a motor to use. I also wanted this to be actuated with a Lead Screw. 
 After some reasearch I decided on this motor: 
@@ -143,7 +143,7 @@ Here is the full assembly - ![image](https://github.com/user-attachments/assets/
 
 Time Spent: 6 hours
 
-# Day 7
+# Day 7 - 6/18/2025
 
 Today I worked on the PCB of the Rocket. For this PCB, I had some requirements and criteria. First off, this PCB will be a flight computer, so that it will change the angle of the airbrakes throughout the launch, so that we will get a good altitude. 
 In order to change the angle of the airbrakes, there needs to be an altitude sensor, and an accelerometer. Using an altitude sensor and an accelerometer, we can measure the height of the rocket, and the acceleration of the rocket at any given time. Using this data, we can derive the velocity of the rocket, by taking the derivative of the height of the rocket, and integrating the acceleration of the rocket. We can then use a complementery filter to combine the results of the altitude sensor and accelerometer, giving us a very smooth graph of velocity of the rocket at a given time. 
@@ -166,7 +166,7 @@ Parts I selected for PCB:
 
 Time Spent: 6 hours
 
-# Day 8
+# Day 8 - 6/19/2025
 
 Today I worked on the Schematic of the PCB
 ![image](https://github.com/user-attachments/assets/da8864f0-77fa-4878-893c-aaf2d1935334)
@@ -175,7 +175,7 @@ In order to get the voltage of the battery, 7.4V, down to 3.3V, I also had to us
 
 Time Spent: 10 hours
 
-# Day 9
+# Day 9 - 6/21/2025
 
 Today I worked on routing the PCB
 
