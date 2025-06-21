@@ -145,5 +145,54 @@ Time Spent: 6 hours
 
 # Day 7
 
-Today I worked on the PCB of the Motor. 
+Today I worked on the PCB of the Rocket. For this PCB, I had some requirements and criteria. First off, this PCB will be a flight computer, so that it will change the angle of the airbrakes throughout the launch, so that we will get a good altitude. 
+In order to change the angle of the airbrakes, there needs to be an altitude sensor, and an accelerometer. Using an altitude sensor and an accelerometer, we can measure the height of the rocket, and the acceleration of the rocket at any given time. Using this data, we can derive the velocity of the rocket, by taking the derivative of the height of the rocket, and integrating the acceleration of the rocket. We can then use a complementery filter to combine the results of the altitude sensor and accelerometer, giving us a very smooth graph of velocity of the rocket at a given time. 
+With this velocity graph, we can do a couple things. We can check whether or not the rocket's velocity is lower than, or higher than, the expected velocity, at the given time, to get to the expected altitude. If the rocket's velocity is lower than the optimal velocity, we lower the angloe of the airbrakes, to gain airspeed. If the rocket's velocity is higher than optimal velocity, we increase the angle of the airbrakes to lower airspeed. If we run this loop for the entire time of the flight, we can get very close optimal altitudes. 
+
+Requirements for PCB: 
+1) Barometeric sensor (altitude sensor) - resolution of under 1 ft and fast update to mcu
+2) IMU (accelerometer) - fast update to mcu
+3) MCU - chip that computes all the simulations and figures out whether to increase or decrease angle of airbrakes
+4) Motor Driver - in order to actuate the airbrakes, we are using a motor, so we need a motor driver to control how fast the motor spins (when the motor spins, the airbrakes will open or close, depending on the direction the motor is spinning)
+5) LED Lights - For testing purposes, and making sure the PCB functions properly
+6) USB Micro/C port - For sending code
+
+Parts I selected for PCB: 
+1) Barometer - MS5607, 30 mhz refresh rate, 20cm accuracy
+2) IMU - ICM42688, 25 mhz refresh rate, very precise
+3) MCU - ESP32-Wroom-32e, 240mhz calculation speed, 2 xtensa cores, 2 spi ports, motor pwm support
+4) Motor Driver - DRV8874, 6A Output Current (Max current of motor I am using), up to 12V (im using 7.4), uses EN/PH
+5) Common LED Lights and USB Micro for easy connection
+
+Time Spent: 6 hours
+
+# Day 8
+
+Today I worked on the Schematic of the PCB
+![image](https://github.com/user-attachments/assets/da8864f0-77fa-4878-893c-aaf2d1935334)
+I designed this PCB in Easy EDA PRO. 
+In order to get the voltage of the battery, 7.4V, down to 3.3V, I also had to use an LDO, which I didnt anticipate before. I also included some Boot and Reset Switches. 
+
+Time Spent: 10 hours
+
+# Day 9
+
+Today I worked on routing the PCB
+
+I had some requirements: 
+1) The USB had to be sticking out of the pcb
+2) The 6 pin encoder header had to be on the top of the board
+3) The 8 pin power header had to be on the bottom of the board
+4) The LED's had to be in visual locations
+5) 4 m3 screw holes
+6) Optimally 2 layer pcb, but 4 layer is fine
+
+This was the finished product: I used a 4 layer pcb because it was easier to route that way. I made the top and bottom layers signal layers, and the inner 2 layers, as 3.3v plane and GND plane, respectively, making it easier to route. 
+![image](https://github.com/user-attachments/assets/5289a35a-6036-4012-ad1d-965ca61e29c4)
+PCB 3d Model:
+![image](https://github.com/user-attachments/assets/0263ebae-c166-4616-82e7-670d280157e9)
+
+
+
+
 
