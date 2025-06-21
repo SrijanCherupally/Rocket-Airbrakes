@@ -68,7 +68,7 @@ This was the full Airbrake Base, with rail guides for 3 Airbrakes Fins
 
 Work done today - Cadded Slider Mech Airbrake Base
 
-Time Spent: 3 hours
+Time Spent: 4 hours
 Date: 5/21/2025
 
 # Day 3 - 6/9/2025
@@ -102,7 +102,7 @@ This is the Airbrake Fins attached to the Transition Bay.
 
 https://github.com/user-attachments/assets/e155a5e2-65f9-4150-ba08-11984518a05b
 
-Time Spent: 3 hours
+Time Spent: 7 hours
 
 # Day 5 - 6/13/2025
 
@@ -117,7 +117,7 @@ Here is a video showing how the Airbrakes Actuate:
 
 https://github.com/user-attachments/assets/33ceb665-7843-46b2-b39d-c41374ad93c8
 
-Time Spent: 5 hours
+Time Spent: 7 hours
 
 # Day 6 - 6/17/2025
 
@@ -164,7 +164,7 @@ Parts I selected for PCB:
 4) Motor Driver - DRV8874, 6A Output Current (Max current of motor I am using), up to 12V (im using 7.4), uses EN/PH
 5) Common LED Lights and USB Micro for easy connection
 
-Time Spent: 6 hours
+Time Spent: 4 hours
 
 # Day 8 - 6/19/2025
 
@@ -191,6 +191,8 @@ This was the finished product: I used a 4 layer pcb because it was easier to rou
 ![image](https://github.com/user-attachments/assets/5289a35a-6036-4012-ad1d-965ca61e29c4)
 PCB 3d Model:
 ![image](https://github.com/user-attachments/assets/0263ebae-c166-4616-82e7-670d280157e9)
+
+Time spent: 12 hours
 
 
 
