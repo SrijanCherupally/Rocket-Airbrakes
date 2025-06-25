@@ -1,10 +1,8 @@
 Item Name,Purpose,Link,Cost,Note,Quantity
-Flight Computer PCB,"To control the motor, and get to right altitude",Online Quotation (Cant share),102.66,"2 qty's inside the order because minimum order",1
+Flight Computer PCB,"To control the motor, and get to right altitude",Online Quotation (Cant share),82.66,"2 qty's inside the order because minimum order",1
 Polulu DC Motor,To actuate the Airbrakes using lead screw,https://www.pololu.com/product/4800,60.00,,1
-3D Printer Filament,To 3D print the Airbrakes,"Fiberon™ PA6-CF20 (Formerly PolyMide™ PA6-CF) – Polymaker US",40,"I need PA CF20 Filament which I don’t have",1
-"M2,3 Metric Screws",To screw and joint the Airbrakes together,"Amazon.com: 1080 Pcs M2 M3 M4 Hex Button Socket Head Cap Screws Bolts Nuts Flat Washers Assortment Kit, Alloy Steel Black Machine Screws and Nuts and Bolts and Washers Set (1080Black) : Industrial & Scientific",15,,1
 JLC CNC Shaft Adapter,Shaft adapter between Motor Shaft and Lead Screw,Online Quotation (Cant share),60,,1
 T4 Lead Screw,To convert motor rotation to linear movement,"3d printer parts T4 lead screw length 100 150 200 250 300 350 mm lead 1mm SS trapezoidal screw with brass nylon nut - AliExpress",15,,1
 "6, 3, 2, 8 pin Headers",To solder onto the PCB for less money charged,Online Quotation (Cant share),10,"This actually saves money compared to having JLC wave solder it for me",1
 Battery for PCB,To power the electronics and actuate Airbrakes,"Amazon.com: HHZ Itexkun 3 pcs 7.4V 2S 200mAh 20C LiPO Battery JST Plug and USB Charger for RC Scale 1/36 Model Buggy Truck F3P Indoor Micro Aircraft : Toys & Games",40,"Couldn’t find anything cheaper that fits my criteria",1
-,,,Total ------------>,342.66,
+,,,Total ------------>,267.66,
