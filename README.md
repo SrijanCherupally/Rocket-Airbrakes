@@ -14,7 +14,7 @@ PCB 3d Image: ![image](https://github.com/user-attachments/assets/672eac3e-356c-
 
 PCB Image: ![image](https://github.com/user-attachments/assets/22efb334-d5de-45bb-a409-8770c8de8b84)
 
-## Bill of Materials
+## Bill of Materials - With Tarriffs
 
 | **Item Name**            | **Purpose**                                                   | **Link**                                                                                                                                                    | **Cost (USD)** | **Note**                                                                                     | **Quantity** |
 |--------------------------|---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|----------------------------------------------------------------------------------------------|--------------|
@@ -25,3 +25,6 @@ PCB Image: ![image](https://github.com/user-attachments/assets/22efb334-d5de-45b
 | 6, 3, 2, 8 pin Headers   | To solder onto the PCB for less money charged                 | Online Quotation *(Can't share)*                                                                                                                            | 10             | This actually saves money compared to having JLC wave solder it for me                      | 1            |
 
 **Total Cost:** **$345.66**
+
+## Bill of Materials - Updated Hand-Soldering
+
