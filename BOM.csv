@@ -1,7 +1,7 @@
 Item Name,Purpose,Link,Cost (USD),Note,Quantity
-Flight Computer PCB,To control the motor, and get to right altitude,Online Quotation (Can't share),160.66,2 qty's inside the order because minimum order,1
+Flight Computer PCB,To control the motor, and get to right altitude,Online Quotation (Can't share),160.66,"2 qty's inside the order because minimum order",1
 Polulu DC Motor,To actuate the Airbrakes using lead screw,Pololu DC Motor,60.00,,1
 JLC CNC Shaft Adapter,Shaft adapter between Motor Shaft and Lead Screw,Online Quotation (Can't share),100,,1
 T4 Lead Screw,To convert motor rotation to linear movement,AliExpress - T4 Lead Screw,15,,1
-6, 3, 2, 8 pin Headers,To solder onto the PCB for less money charged,Online Quotation (Can't share),10,This actually saves money compared to having JLC wave solder it for me,1
+6, 3, 2, 8 pin Headers,To solder onto the PCB for less money charged,Online Quotation (Can't share),10,"This actually saves money compared to having JLC wave solder it for me",1
 ,,Total Cost:,345.66,,
