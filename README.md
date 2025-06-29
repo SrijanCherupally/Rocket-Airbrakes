@@ -24,4 +24,4 @@ PCB Image: ![image](https://github.com/user-attachments/assets/22efb334-d5de-45b
 | T4 Lead Screw            | To convert motor rotation to linear movement                  | [AliExpress - T4 Lead Screw](https://www.aliexpress.us/item/3256804956186452.html)                                                                         | 15             |                                                                                              | 1            |
 | 6, 3, 2, 8 pin Headers   | To solder onto the PCB for less money charged                 | Online Quotation *(Can't share)*                                                                                                                            | 10             | This actually saves money compared to having JLC wave solder it for me                      | 1            |
 
-**Total Cost:** **$267.66**
+**Total Cost:** **$345.66**
